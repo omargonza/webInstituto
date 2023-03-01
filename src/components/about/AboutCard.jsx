@@ -4,13 +4,15 @@ import "./about.css"
 import { homeAbout } from "../../data"
 import Awrapper from "./Awrapper"
 
+
+
 const AboutCard = () => {
   return (
     <>
       <section className='aboutHome'>
         <div className='container flexSB'>
           <div className='left row'>
-            <img src='./images/about.webp' alt='' />
+          
           </div>
           <div className='right row'>
             <Heading subtitle='LEARN ANYTHING' title='Benefits About Online Learning Expertise' />

@@ -1,5 +1,6 @@
 import React from "react"
 import { blog } from "../../../data"
+import peaiNegro from"../../../../src/imagenesNoe/peaiNegro.png"
 import "./footer.css"
 
 const Footer = () => {
@@ -8,8 +9,8 @@ const Footer = () => {
       <section className='newletter'>
         <div className='container flexSB'>
           <div className='left row'>
-            <h1>Newsletter - Stay tune and get the latest update</h1>
-            <span>Far far away, behind the word mountains</span>
+            <h1>Newsletter - Mantengase actualizado y reciba las ultimas actualizaciones</h1>
+            <span>Propuestas educativas para aprender ingles.</span>
           </div>
           <div className='right row'>
             <input type='text' placeholder='Enter email address' />
@@ -20,32 +21,31 @@ const Footer = () => {
       <footer>
         <div className='container padding'>
           <div className='box logo'>
-            <h1>ACADEMIA</h1>
-            <span>ONLINE EDUCATION & LEARNING</span>
-            <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+            <h1>INSTITUTO</h1>
+            <h1>Miss.Noe_online.english</h1>
+            <img src={ peaiNegro} alt="noe"/>
 
             <i className='fab fa-facebook-f icon'></i>
             <i className='fab fa-twitter icon'></i>
             <i className='fab fa-instagram icon'></i>
           </div>
           <div className='box link'>
-            <h3>Explore</h3>
+            <h3>Explorar</h3>
             <ul>
-              <li>About Us</li>
-              <li>Services</li>
-              <li>Courses</li>
+              <li>Sobre nosotros</li>
+              <li>Servicios</li>
+              <li>Coursos</li>
               <li>Blog</li>
-              <li>Contact us</li>
             </ul>
           </div>
           <div className='box link'>
-            <h3>Quick Links</h3>
+            <h3>Enlaces rapidos</h3>
             <ul>
-              <li>Contact Us</li>
+              <li>Contactenos</li>
               <li>Pricing</li>
-              <li>Terms & Conditions</li>
-              <li>Privacy</li>
-              <li>Feedbacks</li>
+              <li>Terms & Condiciones</li>
+              <li>Privacidad</li>
+              <li>Comentarios</li>
             </ul>
           </div>
           <div className='box'>
@@ -70,19 +70,19 @@ const Footer = () => {
             ))}
           </div>
           <div className='box last'>
-            <h3>Have a Questions?</h3>
+            <h3>Preguntas?</h3>
             <ul>
               <li>
                 <i className='fa fa-map'></i>
-                203 Fake St. Mountain View, San Francisco, California, USA
+                 Merlo, Buenos Aires, Argentina.
               </li>
               <li>
                 <i className='fa fa-phone-alt'></i>
-                +2 392 3929 210
+                +54 11 51424362
               </li>
               <li>
                 <i className='fa fa-paper-plane'></i>
-                info@yourdomain.com
+                noemoni@gmail.com
               </li>
             </ul>
           </div>
@@ -90,7 +90,7 @@ const Footer = () => {
       </footer>
       <div className='legal'>
         <p>
-          Copyright ©2022 All rights reserved | This template is made with <i className='fa fa-heart'></i> by GorkhCoder
+          Copyright ©2022 Todos los derechos reservados | Esta plantilla esta hecha con <i className='fa fa-heart'></i> by MGdesarrollo
         </p>
       </div>
     </>

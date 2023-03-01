@@ -13,38 +13,38 @@ const Contact = () => {
             <iframe src={map}></iframe>
           </div>
           <div className='right row'>
-            <h1>Contact us</h1>
-            <p>We're open for any suggestion or just to have a chat</p>
+            <h1>Contactanos</h1>
+            <p>Estamos abiertos a cualquier sugerencia e inquietud.</p>
 
             <div className='items grid2'>
               <div className='box'>
-                <h4>ADDRESS:</h4>
-                <p>198 West 21th Street, Suite 721 New York NY 10016</p>
+                <h4>DIRECCIÓN:</h4>
+                <p>Merlo, Buenos Aires, Argentina</p>
               </div>
               <div className='box'>
                 <h4>EMAIL:</h4>
-                <p> info@yoursite.com</p>
+                <p> missnoemoni@gmail.com</p>
               </div>
               <div className='box'>
-                <h4>PHONE:</h4>
-                <p> + 1235 2355 98</p>
+                <h4>TELEFONO:</h4>
+                <p> +54 11 5142 4362</p>
               </div>
             </div>
 
             <form action=''>
               <div className='flexSB'>
-                <input type='text' placeholder='Name' />
+                <input type='text' placeholder='Nombre y Apellido' />
                 <input type='email' placeholder='Email' />
               </div>
-              <input type='text' placeholder='Subject' />
+              <input type='text' placeholder='Asunto' />
               <textarea cols='30' rows='10'>
-                Create a message here...
+                Crea tu mensaje aqui...
               </textarea>
-              <button className='primary-btn'>SEND MESSAGE</button>
+              <button className='primary-btn'>ENVIAR MENSAJE</button>
             </form>
 
-            <h3>Follow us here</h3>
-            <span>FACEBOOK TWITTER INSTAGRAM DRIBBBLE</span>
+            <h3>Siguenos aqui</h3>
+            <span>FACEBOOK TWITTER INSTAGRAM </span>
           </div>
         </div>
       </section>

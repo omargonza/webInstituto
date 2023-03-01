@@ -44,7 +44,7 @@ export const homeAbout = [
   export const coursesCard = [
     {
       id: 1,
-      cover: "../images/courses/c1.png",
+      cover: "../Img/noe_leon.jpg",
       coursesName: "Introducing to Software Engineering",
       courTeacher: [
         {

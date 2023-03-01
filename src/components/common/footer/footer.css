@@ -1,14 +1,14 @@
 .newletter {
-  background-color: #1eb2a6;
+  background-color: #CF4E00;
   padding: 50px 0;
-  color: #fff;
+  color: rgba(255, 255, 255, 0.3) ;
 }
 .newletter .right,
 .newletter .left {
   padding-right: 50px;
 }
 .newletter h1 {
-  color: #fff;
+  color:  rgba(255, 255, 255, 0.3);
   font-size: 30px;
   font-weight: 500;
   margin-bottom: 15px;
@@ -17,6 +17,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  color: rgba(255, 255, 255, 0.3) ;
 }
 .newletter input {
   width: 100%;
@@ -27,11 +28,11 @@
 }
 .newletter i {
   padding: 12px;
-  color: #1eb2a6;
-  background-color: #fff;
+  color: #DB5C29 ;
+  background-color:  #fff;
 }
 footer {
-  background-color: #eeeeee;
+  background-color:  #F9E2D3;
 }
 footer .container {
   display: grid;
@@ -44,7 +45,7 @@ footer .container {
   }
 }
 footer .logo span {
-  color: #1eb2a6;
+  color:  #DB5C29;
   font-size: 14px;
 }
 footer .logo p {
@@ -52,7 +53,7 @@ footer .logo p {
   margin: 30px 0 15px 0;
 }
 footer .logo .icon {
-  background-color: #1eb2a6;
+  background-color:  #DB5C29;
   color: white;
   margin-right: 10px;
 }
