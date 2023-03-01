@@ -10,6 +10,7 @@ import Blog  from "./components/blog/Blog"
 import Contact from "./components/contact/Contact"
 import Footer from "./components/common/footer/Footer"
 import Home from "./components/home/Home"
+import IrCursos from "./botones/IrCursos"
 
 
 
@@ -28,7 +29,7 @@ function App() {
           <Route  path='/about' element={<About/>} />
           <Route  path='/courses' element={<CourseHome/>} />
           <Route  path='/team' element={<Team/>} />
-        
+          <Route  path='/allcourses' element={<IrCursos/>} />
           <Route  path='/journal' element={<Blog/>} />
           <Route  path='/contact' element={<Contact/>} />
         </Routes>

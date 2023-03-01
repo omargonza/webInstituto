@@ -1,6 +1,7 @@
 import React from "react"
 import Heading from "../../common/heading/Heading"
 import "./Hero.css"
+import IrCursos from "../../../botones/IrCursos"
 
 const Hero = () => {
   return (
@@ -14,9 +15,10 @@ const Hero = () => {
               <button className='primary-btn'>
                 COMIENZA AHORA <i className='fa fa-long-arrow-alt-right'></i>
               </button>
-              <button>
-              <a className='fa fa-long-arrow-alt-right' href="./allcourses">VER CURSOS</a>
-              </button>
+              
+              <IrCursos/>
+              
+
             </div>
           </div>
         </div>
