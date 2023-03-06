@@ -1,10 +1,20 @@
-import React from "react"
+
+
+
 import Heading from "../../common/heading/Heading"
 import "./Hero.css"
-import IrCursos from "../../../botones/IrCursos"
+import IrCursos from "../../botones/IrCursos.jsx"
+
+
+
 
 const Hero = () => {
+
+ 
+
   return (
+   
+
     <>
       <section className='hero'>
         <div className='container'>
@@ -16,8 +26,8 @@ const Hero = () => {
                 COMIENZA AHORA <i className='fa fa-long-arrow-alt-right'></i>
               </button>
               
-              <IrCursos/>
-              
+               <IrCursos/>  
+                
 
             </div>
           </div>
